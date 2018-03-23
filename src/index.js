@@ -4,19 +4,6 @@ import React from 'react';
 // Import ReactDOM.render() from React Dom library
 import ReactDOM from 'react-dom';
 
-// Create our first element
-//const title = React.createElement('h1', {}, 'My First React Code');
-// Create a sibling
-//const paragraph = React.createElement('p', {}, 'Writing some more HTML. Cool stuff!');
-// Create a container
-//const container = React.createElement('div', {}, [title, paragraph]);
-
-// Render React element
-//ReactDOM.render(
-//  container,
-//  document.getElementById('global')
-//);
-
 const list =
   React.createElement('div', {},
     React.createElement('h1', {}, 'My favorite ice cream flavors'),
